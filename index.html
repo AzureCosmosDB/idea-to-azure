@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Idea to Azure — Prototype Accelerator</title>
 <meta name="description" content="Turn your idea into a working prototype. A focused accelerator for founders and product managers — build smarter with AI, ship on Azure." />
-<meta name="theme-color" content="#0b1220" />
+<meta name="theme-color" content="#0d2e42" />
 <!-- Open Graph -->
 <meta property="og:title" content="Idea to Azure — Prototype Accelerator" />
 <meta property="og:description" content="Turn your idea into a working prototype. In days, not months." />
@@ -21,25 +21,16 @@
 <meta name="twitter:title" content="Idea to Azure — Prototype Accelerator" />
 <meta name="twitter:description" content="Turn your idea into a working prototype. In days, not months." />
 <meta name="twitter:image" content="https://azurecosmosdb.github.io/idea-to-azure/og-image.jpg" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="bg-orbs" aria-hidden="true">
-  <span class="orb orb-1"></span>
-  <span class="orb orb-2"></span>
-  <span class="orb orb-3"></span>
-</div>
-
 <header class="nav">
-  <a class="brand" href="#top">
-    <span class="brand-mark" aria-hidden="true">💡</span>
-    <span>Idea<span class="brand-arrow">→</span>Azure</span>
+  <a class="brand" href="#top" aria-label="Microsoft - Idea to Azure home">
+    <span class="microsoft-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+    <span>Microsoft</span>
   </a>
-  <nav class="nav-links">
+  <nav class="nav-links" aria-label="Main navigation">
     <a href="#watch">Watch</a>
     <a href="#next" class="nav-cta">Next Cohort</a>
     <a href="#about">The Programme</a>
@@ -53,13 +44,13 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
-      <span class="eyebrow">Prototype Accelerator</span>
+      <span class="eyebrow">Microsoft Prototype Accelerator</span>
       <h1>Idea <span class="grad">to</span> Azure</h1>
-      <p class="lede">Turn your idea into a working prototype.<br /><strong>In days, not months.</strong></p>
+      <p class="lede">Turn your idea into a working prototype<br />with the Azure Cosmos DB team<strong>In days, not months.</strong></p>
       <p class="sub">A focused, hands-on accelerator for founders and product managers who are done waiting for someone else to build it.</p>
       <div class="hero-cta">
         <a href="#next" class="btn btn-primary">See the next cohort</a>
-        <a href="#about" class="btn btn-ghost">What's it about?</a>
+        <a href="https://forms.cloud.microsoft/r/Sd8TXFD3WS" class="btn btn-ghost" target="_blank" rel="noopener">Apply now</a>
       </div>
       <div class="hero-badges">
         <span class="chip"><b>AI-assisted</b> build</span>
@@ -68,6 +59,7 @@
       </div>
     </div>
     <div class="hero-visual" aria-hidden="true">
+      <img class="cosmos-logo" src="assets/cosmos-db.png" alt="" width="120" height="120" />
       <div class="code-card">
         <div class="code-top"><span></span><span></span><span></span><em>GitHub Copilot</em></div>
         <pre><code><span class="c-com">// Build a solution with AI</span>
@@ -84,21 +76,6 @@
         <span class="node">Test</span><i>→</i>
         <span class="node node-win">MVP</span>
       </div>
-    </div>
-  </section>
-
-  <!-- WATCH -->
-  <section id="watch" class="section watch watch-top">
-    <div class="section-head">
-      <span class="kicker">Watch</span>
-      <h2>60 seconds. One big idea.</h2>
-      <p>See what the accelerator is about.</p>
-    </div>
-    <div class="video-wrap">
-      <video controls playsinline preload="none" poster="bootcamp-promo-poster.jpg">
-        <source src="bootcamp-promo.mp4" type="video/mp4" />
-        Your browser doesn't support embedded video. <a href="bootcamp-promo.mp4">Download the clip</a>.
-      </video>
     </div>
   </section>
 
@@ -128,6 +105,21 @@
     </div>
   </section>
 
+  <!-- WATCH -->
+  <section id="watch" class="section watch">
+    <div class="section-head">
+      <span class="kicker">Watch</span>
+      <h2>60 seconds. One big idea.</h2>
+      <p>See what the accelerator is about.</p>
+    </div>
+    <div class="video-wrap">
+      <video controls playsinline preload="none" poster="bootcamp-promo-poster.jpg" aria-label="Idea to Azure accelerator introduction">
+        <source src="bootcamp-promo.mp4" type="video/mp4" />
+        Your browser doesn't support embedded video. <a href="bootcamp-promo.mp4">Download the clip</a>.
+      </video>
+    </div>
+  </section>
+
   <!-- ABOUT -->
   <section id="about" class="section">
     <div class="section-head">
@@ -137,22 +129,22 @@
     </div>
     <div class="cards">
       <article class="card">
-        <div class="card-ic">🚀</div>
+        <div class="card-ic" aria-hidden="true"><img src="assets/rocket.svg" alt="" width="24" height="24" /></div>
         <h3>Idea to prototype</h3>
         <p>Validate your concept and build real momentum — fast. Leave with something that actually runs.</p>
       </article>
       <article class="card">
-        <div class="card-ic">⌘</div>
+        <div class="card-ic" aria-hidden="true"><img src="assets/code-xml.svg" alt="" width="24" height="24" /></div>
         <h3>AI-assisted development</h3>
         <p>Learn to direct modern AI coding tools with discipline — prompt clearly, then validate ruthlessly.</p>
       </article>
       <article class="card">
-        <div class="card-ic">☁️</div>
+        <div class="card-ic" aria-hidden="true"><img src="assets/cloud.svg" alt="" width="24" height="24" /></div>
         <h3>Built on Azure</h3>
         <p>Ship on secure, scalable, reliable cloud — with Azure Cosmos DB for globally distributed, any-scale data.</p>
       </article>
       <article class="card">
-        <div class="card-ic">🧭</div>
+        <div class="card-ic" aria-hidden="true"><img src="assets/compass.svg" alt="" width="24" height="24" /></div>
         <h3>Expert guidance</h3>
         <p>Work alongside Microsoft product engineers, Azure and AI specialists, and a dedicated coach.</p>
       </article>
@@ -201,7 +193,7 @@
 
 <footer class="foot">
   <div class="foot-inner">
-    <span class="brand small"><span aria-hidden="true">💡</span> Idea<span class="brand-arrow">→</span>Azure Prototype Accelerator</span>
+    <span class="brand small"><span class="microsoft-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span> Microsoft</span>
     <span class="foot-meta">Build smarter. Ship on Azure.</span>
   </div>
 </footer>
