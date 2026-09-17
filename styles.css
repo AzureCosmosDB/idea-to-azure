@@ -92,6 +92,8 @@ h2{color:var(--brand)}
 .card-ic img{width:24px;height:24px}
 .card h3{font-size:21px;margin:0 0 8px;font-weight:700}
 .card p{color:var(--muted);font-size:15px;margin:0;line-height:1.6}
+.card p + p{margin-top:16px}
+.card p a{color:var(--brand);text-decoration:underline;text-underline-offset:3px}
 
 .journey{list-style:none;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px;padding:0;margin:0 0 26px}
 .journey li{padding:22px 16px;border:1px solid var(--panel-brd);border-radius:12px;background:var(--panel);text-align:center}
