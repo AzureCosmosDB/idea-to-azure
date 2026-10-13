@@ -38,5 +38,5 @@ Branch: `main` / root (`/`).
 Site publishes at: `https://azurecosmosdb.github.io/idea-to-azure/`
 
 ## Next cohort
-- **Starts:** 27 October 2026
+- **Starts:** 7 December 2026
 - **Apply:** https://forms.cloud.microsoft/r/Sd8TXFD3WS
